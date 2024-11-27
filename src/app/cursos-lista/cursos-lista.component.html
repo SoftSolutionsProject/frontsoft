@@ -1,0 +1,10 @@
+<div class="cont">
+  <app-card-cursos *ngFor="let curso of cursos"
+  [titulo]="curso.titulo"
+  [professor]="curso.professor"
+  [imagemCurso]="curso.imagemCurso"
+  [avaliacao]="curso.avaliacao"
+  [id]="curso.id"
+  [estrelas]="curso.estrelas">
+  </app-card-cursos>
+ </div>
